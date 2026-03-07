@@ -20,6 +20,14 @@ export const metadata: Metadata = {
     description: "帮助艺术生和家长做出更好的选校决策",
     locale: "zh_CN",
     type: "website",
+    images: [
+      {
+        url: "/artx/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "ArtX 艺术院校选校指南",
+      },
+    ],
   },
 };
 

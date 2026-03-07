@@ -45,3 +45,20 @@ export function getCountryFlag(code: string): string {
 export function getTierLabel(tier: string): string {
   return tier === 'top' ? '顶尖档' : '中级档'
 }
+
+const PROGRAM_LABELS: Record<string, string> = {
+  'illustration': '插画',
+  'animation': '动画',
+  'graphic-design': '视觉传达/平面设计',
+  'industrial-design': '工业设计',
+  'fine-art': '纯艺术',
+  'fashion-design': '时尚设计',
+  'game-design': '游戏设计',
+  'interior-design': '室内设计',
+  'photography': '摄影',
+  'film-media': '电影与新媒体',
+}
+
+export function getProgramLabel(id: string): string {
+  return PROGRAM_LABELS[id] || id
+}

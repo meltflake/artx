@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
-import { getAllSchools, getCountryLabel, getCountryFlag, getTierLabel } from '@/lib/data'
+import { getAllSchools, getCountryLabel, getCountryFlag, getTierLabel, getProgramLabel } from '@/lib/data'
 import type { School } from '@/lib/types'
 
 export default function ComparePage() {
@@ -88,9 +88,9 @@ export default function ComparePage() {
             <tbody>
               <CompareRow label="国家" values={selectedSchools.map((s) => `${getCountryFlag(s.country)} ${getCountryLabel(s.country)}`)} />
               <CompareRow label="档次" values={selectedSchools.map((s) => getTierLabel(s.tier))} />
-              <CompareRow label="QS 排名" values={selectedSchools.map((s) => s.qs_ranking ? `#${s.qs_ranking}` : '未上榜')} />
+              <CompareRow label="QS 排名" values={selectedSchools.map((s) => s.qs_ranking ? `#${s.qs_ranking}` : '未进入 Top 50')} />
               <CompareRow label="录取率" values={selectedSchools.map((s) => s.acceptance_rate)} highlight />
-              <CompareRow label="年学费" values={selectedSchools.map((s) => `$${s.tuition_usd.toLocaleString()}`)} highlight />
+              <CompareRow label="年学费 (USD)" values={selectedSchools.map((s) => `$${s.tuition_usd.toLocaleString()}${s.country !== 'US' ? ' *' : ''}`)} highlight />
               <CompareRow label="标化考试" values={selectedSchools.map((s) => s.test_optional ? 'Test-Optional' : '必须')} />
               <CompareRow label="SAT 参考" values={selectedSchools.map((s) => s.sat_range || '—')} />
               <CompareRow label="作品集数量" values={selectedSchools.map((s) => s.portfolio.pieces + ' 件')} />
@@ -99,9 +99,10 @@ export default function ComparePage() {
               <CompareRow label="ED/EA 截止" values={selectedSchools.map((s) => s.deadlines.early_decision || s.deadlines.early_action || '—')} />
               <CompareRow label="RD 截止" values={selectedSchools.map((s) => s.deadlines.regular_decision)} />
               <CompareRow label="Merit 奖学金" values={selectedSchools.map((s) => s.financial_aid.merit_scholarships ? '✓' : '✗')} />
-              <CompareRow label="开设专业" values={selectedSchools.map((s) => s.programs.join(', '))} />
+              <CompareRow label="开设专业" values={selectedSchools.map((s) => s.programs.map(getProgramLabel).join(', '))} />
             </tbody>
           </table>
+          <p className="mt-3 text-xs text-gray-400">* 非美国院校学费已按近期汇率折算为美元，仅供参考。</p>
         </div>
       ) : (
         <div className="mt-16 text-center text-gray-400">

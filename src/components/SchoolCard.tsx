@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import type { School } from '@/lib/types'
-import { getCountryFlag, getCountryLabel, getTierLabel } from '@/lib/data'
+import { getCountryFlag, getCountryLabel, getTierLabel, getProgramLabel } from '@/lib/data'
 
 export default function SchoolCard({ school }: { school: School }) {
   return (
@@ -28,18 +28,18 @@ export default function SchoolCard({ school }: { school: School }) {
 
       <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-gray-600">
         <span>{getCountryFlag(school.country)} {getCountryLabel(school.country)}</span>
-        {school.qs_ranking && <span>QS #{school.qs_ranking}</span>}
+        <span>{school.qs_ranking ? `QS #${school.qs_ranking}` : 'QS 未上榜'}</span>
         <span>录取率 {school.acceptance_rate}</span>
       </div>
 
       <div className="mt-2 text-xs text-gray-500">
-        年学费 ~${school.tuition_usd.toLocaleString()}
+        年学费 ~${school.tuition_usd.toLocaleString()}{school.country !== 'US' && ' (折合美元)'}
       </div>
 
       <div className="mt-3 flex flex-wrap gap-1">
         {school.programs.slice(0, 4).map((p) => (
           <span key={p} className="rounded bg-gray-100 px-1.5 py-0.5 text-[10px] text-gray-600">
-            {p}
+            {getProgramLabel(p)}
           </span>
         ))}
         {school.programs.length > 4 && (

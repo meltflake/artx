@@ -23,7 +23,7 @@ export default function Home() {
       {/* Stats bar */}
       <section className="border-y border-gray-200 bg-white px-4 py-4">
         <div className="mx-auto flex max-w-3xl flex-wrap items-center justify-center gap-6 text-sm text-gray-600">
-          <span>已收录 <strong className="text-indigo-700">{countries.size}</strong> 个国家</span>
+          <span>覆盖 <strong className="text-indigo-700">美国、英国、加拿大、澳大利亚</strong></span>
           <span className="text-gray-300">|</span>
           <span><strong className="text-indigo-700">{schools.length}</strong> 所院校</span>
           <span className="text-gray-300">|</span>

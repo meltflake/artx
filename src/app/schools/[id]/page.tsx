@@ -46,9 +46,9 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ i
 
       {/* Quick Stats */}
       <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
-        <StatBox label="QS 排名" value={school.qs_ranking ? `#${school.qs_ranking}` : '未上榜'} />
+        <StatBox label="QS 艺术设计排名" value={school.qs_ranking ? `#${school.qs_ranking}` : '未进入 Top 50'} />
         <StatBox label="录取率" value={school.acceptance_rate} />
-        <StatBox label="年学费" value={`$${school.tuition_usd.toLocaleString()}`} />
+        <StatBox label={school.country === 'US' ? '年学费' : '年学费 (折合美元)'} value={`$${school.tuition_usd.toLocaleString()}`} />
         <StatBox label="标化考试" value={school.test_optional ? 'Test-Optional' : '必须提交'} />
       </div>
 

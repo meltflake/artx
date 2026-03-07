@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import type { School } from '@/lib/types'
-import { getCountryLabel, getTierLabel } from '@/lib/data'
+import { getCountryLabel, getTierLabel, getProgramLabel } from '@/lib/data'
 import SchoolCard from './SchoolCard'
 
 const COUNTRIES = ['US', 'UK', 'CA', 'AU'] as const
@@ -68,7 +68,7 @@ export default function SchoolFilters({ schools }: { schools: School[] }) {
         >
           <option value="">所有专业</option>
           {allPrograms.map((p) => (
-            <option key={p} value={p}>{p}</option>
+            <option key={p} value={p}>{getProgramLabel(p)}</option>
           ))}
         </select>
 
