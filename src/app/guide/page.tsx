@@ -3,10 +3,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '申请指南',
-  description: '艺术院校申请全攻略：时间线规划、作品集指南、面试技巧、IB 学生专题、申请材料清单。',
+  description: '艺术院校申请全攻略：各国差异对比、时间线规划、作品集指南、面试技巧、IB 学生专题、申请材料清单。',
 }
 
 const guides = [
+  { icon: '🌍', title: '各国申请差异对比', desc: '美、英、加、澳、港、新、中七个地区的申请方式和要求全面对比', href: '/guide/country-comparison' },
   { icon: '📅', title: '申请时间线', desc: '从九年级到十二年级的完整准备规划', href: '/guide/timeline' },
   { icon: '🎨', title: '作品集指南', desc: '10 个关键技巧和必须避免的常见错误', href: '/guide/portfolio' },
   { icon: '🎤', title: '面试技巧', desc: '面试形式、高频问题和作品集讲解要点', href: '/guide/interview' },
