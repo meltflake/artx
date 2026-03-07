@@ -57,8 +57,8 @@ export default function Home() {
 
       {/* Value proposition */}
       <section className="bg-gray-50 px-4 py-16">
-        <div className="mx-auto max-w-3xl text-center">
-          <h2 className="text-2xl font-bold text-gray-900">为什么做这个网站？</h2>
+        <div className="mx-auto max-w-3xl">
+          <h2 className="text-center text-2xl font-bold text-gray-900">为什么做这个网站？</h2>
           <p className="mt-4 text-gray-600 leading-relaxed">
             艺术留学的信息分散在各个院校官网、中介机构和社交媒体上。家长和学生常常面临信息不对称的困境——不知道有哪些学校可选、不清楚作品集要求的区别、不了解各专业的就业前景。
           </p>

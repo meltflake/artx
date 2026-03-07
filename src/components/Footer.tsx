@@ -20,6 +20,7 @@ export default function Footer() {
         <div className="mt-6 border-t border-gray-200 pt-4 text-xs text-gray-400">
           <p>本站信息仅供参考，请以各院校官网为准。数据来源：QS 排名、各院校官方网站。</p>
           <p className="mt-1">&copy; {new Date().getFullYear()} ArtX. All rights reserved.</p>
+          <p className="mt-1">最近更新：2026 年 3 月 7 日</p>
         </div>
       </div>
     </footer>
