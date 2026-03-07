@@ -23,7 +23,7 @@ export default function Home() {
       {/* Stats bar */}
       <section className="border-y border-gray-200 bg-white px-4 py-4">
         <div className="mx-auto flex max-w-3xl flex-wrap items-center justify-center gap-6 text-sm text-gray-600">
-          <span>覆盖 <strong className="text-indigo-700">美国、英国、加拿大、澳大利亚</strong></span>
+          <span>覆盖 <strong className="text-indigo-700">美、英、加、澳、港、新、中</strong> 7 个地区</span>
           <span className="text-gray-300">|</span>
           <span><strong className="text-indigo-700">{schools.length}</strong> 所院校</span>
           <span className="text-gray-300">|</span>
@@ -37,7 +37,7 @@ export default function Home() {
           <EntryCard
             icon="🏫"
             title="浏览院校"
-            desc={`探索 ${schools.length} 所英语国家艺术院校，按国家、专业、学费筛选`}
+            desc={`探索 ${schools.length} 所全球艺术院校，按国家、专业、学费筛选`}
             href="/schools"
           />
           <EntryCard
@@ -63,7 +63,7 @@ export default function Home() {
             艺术留学的信息分散在各个院校官网、中介机构和社交媒体上。家长和学生常常面临信息不对称的困境——不知道有哪些学校可选、不清楚作品集要求的区别、不了解各专业的就业前景。
           </p>
           <p className="mt-3 text-gray-600 leading-relaxed">
-            ArtX 旨在将这些分散的信息整合成一个结构化、可比较的数据库，让每个家庭都能做出更明智的选校决策。所有信息均来自 QS 排名和各院校官方网站，定期更新。
+            ArtX 旨在将这些分散的信息整合成一个结构化、可比较的数据库，覆盖美、英、加、澳以及中国大陆、香港和新加坡的优秀艺术院校，让每个家庭都能做出更明智的选校决策。所有信息均来自 QS 排名和各院校官方网站，定期更新。
           </p>
         </div>
       </section>

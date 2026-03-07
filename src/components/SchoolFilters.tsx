@@ -5,7 +5,7 @@ import type { School } from '@/lib/types'
 import { getCountryLabel, getTierLabel, getProgramLabel } from '@/lib/data'
 import SchoolCard from './SchoolCard'
 
-const COUNTRIES = ['US', 'UK', 'CA', 'AU'] as const
+const COUNTRIES = ['US', 'UK', 'CA', 'AU', 'HK', 'SG', 'CN'] as const
 const TIERS = ['top', 'mid'] as const
 
 export default function SchoolFilters({ schools }: { schools: School[] }) {

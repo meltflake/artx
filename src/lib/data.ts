@@ -30,14 +30,14 @@ export function getProgramsBySchool(schoolId: string): Program[] {
 
 export function getCountryLabel(code: string): string {
   const map: Record<string, string> = {
-    US: '美国', UK: '英国', CA: '加拿大', AU: '澳大利亚'
+    US: '美国', UK: '英国', CA: '加拿大', AU: '澳大利亚', HK: '中国香港', SG: '新加坡', CN: '中国大陆'
   }
   return map[code] || code
 }
 
 export function getCountryFlag(code: string): string {
   const map: Record<string, string> = {
-    US: '🇺🇸', UK: '🇬🇧', CA: '🇨🇦', AU: '🇦🇺'
+    US: '🇺🇸', UK: '🇬🇧', CA: '🇨🇦', AU: '🇦🇺', HK: '🇭🇰', SG: '🇸🇬', CN: '🇨🇳'
   }
   return map[code] || '🌍'
 }

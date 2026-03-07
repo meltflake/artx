@@ -15,7 +15,16 @@
     "tier": "top",
     "sat_range": "1370-1540",
     "test_optional": true,
-    "programs": ["illustration", "animation", "graphic-design", "industrial-design", "fine-art", "interior-design", "photography", "film-media"],
+    "programs": [
+      "illustration",
+      "animation",
+      "graphic-design",
+      "industrial-design",
+      "fine-art",
+      "interior-design",
+      "photography",
+      "film-media"
+    ],
     "portfolio": {
       "pieces": "12-20",
       "platform": "SlideRoom",
@@ -55,7 +64,15 @@
     "tier": "top",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["illustration", "animation", "fine-art", "graphic-design", "photography", "film-media", "game-design"],
+    "programs": [
+      "illustration",
+      "animation",
+      "fine-art",
+      "graphic-design",
+      "photography",
+      "film-media",
+      "game-design"
+    ],
     "portfolio": {
       "pieces": "15-20",
       "platform": "SlideRoom",
@@ -94,7 +111,15 @@
     "tier": "top",
     "sat_range": "1460-1560",
     "test_optional": true,
-    "programs": ["fine-art", "graphic-design", "game-design", "animation", "industrial-design", "photography", "film-media"],
+    "programs": [
+      "fine-art",
+      "graphic-design",
+      "game-design",
+      "animation",
+      "industrial-design",
+      "photography",
+      "film-media"
+    ],
     "portfolio": {
       "pieces": "10-20",
       "platform": "SlideRoom",
@@ -134,7 +159,16 @@
     "tier": "top",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["illustration", "graphic-design", "fashion-design", "fine-art", "industrial-design", "interior-design", "photography", "animation"],
+    "programs": [
+      "illustration",
+      "graphic-design",
+      "fashion-design",
+      "fine-art",
+      "industrial-design",
+      "interior-design",
+      "photography",
+      "animation"
+    ],
     "portfolio": {
       "pieces": "8-12",
       "platform": "SlideRoom",
@@ -174,7 +208,18 @@
     "tier": "top",
     "sat_range": "1130-1360",
     "test_optional": true,
-    "programs": ["illustration", "graphic-design", "industrial-design", "fine-art", "fashion-design", "interior-design", "animation", "photography", "film-media", "game-design"],
+    "programs": [
+      "illustration",
+      "graphic-design",
+      "industrial-design",
+      "fine-art",
+      "fashion-design",
+      "interior-design",
+      "animation",
+      "photography",
+      "film-media",
+      "game-design"
+    ],
     "portfolio": {
       "pieces": "12-20",
       "platform": "SlideRoom",
@@ -215,7 +260,16 @@
     "tier": "top",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["fine-art", "illustration", "graphic-design", "animation", "photography", "film-media", "fashion-design", "interior-design"],
+    "programs": [
+      "fine-art",
+      "illustration",
+      "graphic-design",
+      "animation",
+      "photography",
+      "film-media",
+      "fashion-design",
+      "interior-design"
+    ],
     "portfolio": {
       "pieces": "10-15",
       "platform": "SlideRoom",
@@ -255,7 +309,15 @@
     "tier": "mid",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["illustration", "graphic-design", "fine-art", "animation", "photography", "film-media", "game-design"],
+    "programs": [
+      "illustration",
+      "graphic-design",
+      "fine-art",
+      "animation",
+      "photography",
+      "film-media",
+      "game-design"
+    ],
     "portfolio": {
       "pieces": "12-20",
       "platform": "SlideRoom",
@@ -295,7 +357,18 @@
     "tier": "mid",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["illustration", "animation", "graphic-design", "industrial-design", "fine-art", "fashion-design", "game-design", "interior-design", "photography", "film-media"],
+    "programs": [
+      "illustration",
+      "animation",
+      "graphic-design",
+      "industrial-design",
+      "fine-art",
+      "fashion-design",
+      "game-design",
+      "interior-design",
+      "photography",
+      "film-media"
+    ],
     "portfolio": {
       "pieces": "10-20",
       "platform": "学校官网上传",
@@ -334,7 +407,16 @@
     "tier": "mid",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["illustration", "animation", "graphic-design", "industrial-design", "fine-art", "fashion-design", "photography", "film-media"],
+    "programs": [
+      "illustration",
+      "animation",
+      "graphic-design",
+      "industrial-design",
+      "fine-art",
+      "fashion-design",
+      "photography",
+      "film-media"
+    ],
     "portfolio": {
       "pieces": "15-20",
       "platform": "SlideRoom",
@@ -374,7 +456,16 @@
     "tier": "mid",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["illustration", "animation", "graphic-design", "fine-art", "photography", "film-media", "interior-design", "game-design"],
+    "programs": [
+      "illustration",
+      "animation",
+      "graphic-design",
+      "fine-art",
+      "photography",
+      "film-media",
+      "interior-design",
+      "game-design"
+    ],
     "portfolio": {
       "pieces": "15-20",
       "platform": "SlideRoom",
@@ -414,7 +505,16 @@
     "tier": "mid",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["illustration", "animation", "graphic-design", "fine-art", "game-design", "film-media", "photography", "interior-design"],
+    "programs": [
+      "illustration",
+      "animation",
+      "graphic-design",
+      "fine-art",
+      "game-design",
+      "film-media",
+      "photography",
+      "interior-design"
+    ],
     "portfolio": {
       "pieces": "10-15",
       "platform": "SlideRoom",
@@ -454,7 +554,18 @@
     "tier": "mid",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["illustration", "animation", "graphic-design", "industrial-design", "fine-art", "fashion-design", "interior-design", "photography", "film-media", "game-design"],
+    "programs": [
+      "illustration",
+      "animation",
+      "graphic-design",
+      "industrial-design",
+      "fine-art",
+      "fashion-design",
+      "interior-design",
+      "photography",
+      "film-media",
+      "game-design"
+    ],
     "portfolio": {
       "pieces": "10-15",
       "platform": "SlideRoom",
@@ -494,7 +605,18 @@
     "tier": "top",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["illustration", "animation", "graphic-design", "fine-art", "fashion-design", "interior-design", "photography", "film-media", "game-design", "industrial-design"],
+    "programs": [
+      "illustration",
+      "animation",
+      "graphic-design",
+      "fine-art",
+      "fashion-design",
+      "interior-design",
+      "photography",
+      "film-media",
+      "game-design",
+      "industrial-design"
+    ],
     "portfolio": {
       "pieces": "20-30",
       "platform": "学校官网上传或面试展示",
@@ -533,7 +655,15 @@
     "tier": "top",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["fine-art", "graphic-design", "illustration", "animation", "photography", "interior-design", "industrial-design"],
+    "programs": [
+      "fine-art",
+      "graphic-design",
+      "illustration",
+      "animation",
+      "photography",
+      "interior-design",
+      "industrial-design"
+    ],
     "portfolio": {
       "pieces": "15-25",
       "platform": "学校官网上传",
@@ -572,7 +702,14 @@
     "tier": "mid",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["fine-art", "graphic-design", "illustration", "photography", "film-media", "animation"],
+    "programs": [
+      "fine-art",
+      "graphic-design",
+      "illustration",
+      "photography",
+      "film-media",
+      "animation"
+    ],
     "portfolio": {
       "pieces": "15-20",
       "platform": "学校官网上传或面试展示",
@@ -611,7 +748,16 @@
     "tier": "mid",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["fine-art", "graphic-design", "illustration", "animation", "photography", "fashion-design", "interior-design", "film-media"],
+    "programs": [
+      "fine-art",
+      "graphic-design",
+      "illustration",
+      "animation",
+      "photography",
+      "fashion-design",
+      "interior-design",
+      "film-media"
+    ],
     "portfolio": {
       "pieces": "15-20",
       "platform": "学校官网上传或面试展示",
@@ -650,7 +796,15 @@
     "tier": "mid",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["illustration", "animation", "graphic-design", "industrial-design", "fine-art", "photography", "film-media"],
+    "programs": [
+      "illustration",
+      "animation",
+      "graphic-design",
+      "industrial-design",
+      "fine-art",
+      "photography",
+      "film-media"
+    ],
     "portfolio": {
       "pieces": "15-20",
       "platform": "SlideRoom",
@@ -689,7 +843,14 @@
     "tier": "mid",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["illustration", "graphic-design", "industrial-design", "fine-art", "photography", "animation"],
+    "programs": [
+      "illustration",
+      "graphic-design",
+      "industrial-design",
+      "fine-art",
+      "photography",
+      "animation"
+    ],
     "portfolio": {
       "pieces": "10-15",
       "platform": "SlideRoom",
@@ -728,7 +889,18 @@
     "tier": "mid",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["illustration", "animation", "graphic-design", "industrial-design", "fine-art", "fashion-design", "photography", "film-media", "game-design", "interior-design"],
+    "programs": [
+      "illustration",
+      "animation",
+      "graphic-design",
+      "industrial-design",
+      "fine-art",
+      "fashion-design",
+      "photography",
+      "film-media",
+      "game-design",
+      "interior-design"
+    ],
     "portfolio": {
       "pieces": "10-20",
       "platform": "学校官网上传",
@@ -767,7 +939,16 @@
     "tier": "mid",
     "sat_range": null,
     "test_optional": true,
-    "programs": ["animation", "graphic-design", "industrial-design", "fine-art", "photography", "film-media", "interior-design", "fashion-design"],
+    "programs": [
+      "animation",
+      "graphic-design",
+      "industrial-design",
+      "fine-art",
+      "photography",
+      "film-media",
+      "interior-design",
+      "fashion-design"
+    ],
     "portfolio": {
       "pieces": "10-15",
       "platform": "学校官网上传",
@@ -788,6 +969,334 @@
       "位于悉尼市中心，实习和就业机会丰富",
       "注重实践教学，与产业界合作紧密",
       "新建的校园设施现代化程度极高"
+    ]
+  },
+  {
+    "id": "polyu-design",
+    "name_en": "Hong Kong Polytechnic University School of Design",
+    "name_zh": "香港理工大学设计学院",
+    "abbreviation": "PolyU",
+    "country": "HK",
+    "city_en": "Hong Kong",
+    "city_zh": "香港",
+    "type": "综合大学设计学院",
+    "website": "https://www.sd.polyu.edu.hk",
+    "qs_ranking": 18,
+    "acceptance_rate": "20-30%",
+    "tuition_usd": 19000,
+    "tier": "top",
+    "sat_range": null,
+    "test_optional": true,
+    "programs": [
+      "graphic-design",
+      "industrial-design",
+      "interior-design",
+      "animation",
+      "illustration"
+    ],
+    "portfolio": {
+      "pieces": "15-20",
+      "platform": "学校官网上传",
+      "observational_drawing_required": false,
+      "description": "需提交15-20件作品展示设计思维和创意能力。设计类专业重视用户研究和设计过程文档。本科申请需通过面试。"
+    },
+    "deadlines": {
+      "early_action": "11-18",
+      "regular_decision": "01-08"
+    },
+    "financial_aid": {
+      "merit_scholarships": true,
+      "need_based_aid": true,
+      "description": "提供入学奖学金和政府资助。香港学费相对欧美较低，约HK$145,000/年。非本地生可申请各类奖学金。"
+    },
+    "application_url": "https://www.polyu.edu.hk/study/ug/admission/",
+    "highlights": [
+      "QS艺术设计排名全球第18，亚洲设计教育标杆",
+      "工业设计和交互设计全球领先，与Jony Ive母校齐名",
+      "与本地及国际业界合作紧密，实习机会丰富",
+      "香港国际化环境，毕业后可留港发展"
+    ]
+  },
+  {
+    "id": "cityu-cm",
+    "name_en": "City University of Hong Kong School of Creative Media",
+    "name_zh": "香港城市大学创意媒体学院",
+    "abbreviation": "CityU",
+    "country": "HK",
+    "city_en": "Hong Kong",
+    "city_zh": "香港",
+    "type": "综合大学艺术学院",
+    "website": "https://www.scm.cityu.edu.hk",
+    "qs_ranking": null,
+    "acceptance_rate": "25-35%",
+    "tuition_usd": 18000,
+    "tier": "mid",
+    "sat_range": null,
+    "test_optional": true,
+    "programs": [
+      "animation",
+      "film-media",
+      "game-design",
+      "photography",
+      "fine-art"
+    ],
+    "portfolio": {
+      "pieces": "10-15",
+      "platform": "学校官网上传",
+      "observational_drawing_required": false,
+      "description": "需提交10-15件创意作品，涵盖新媒体、动画、影像等方向。重视技术与艺术的融合能力，部分专业需面试。"
+    },
+    "deadlines": {
+      "regular_decision": "01-02"
+    },
+    "financial_aid": {
+      "merit_scholarships": true,
+      "need_based_aid": true,
+      "description": "提供多种入学奖学金，包括学术优异奖学金和才艺奖学金。约HK$140,000/年。"
+    },
+    "application_url": "https://www.cityu.edu.hk/admo/",
+    "highlights": [
+      "创意媒体学院是亚洲新媒体艺术教育的先锋",
+      "注重科技与艺术的跨学科融合",
+      "邵逸夫创意媒体中心设施一流",
+      "毕业生在动画、游戏、数字艺术领域表现突出"
+    ]
+  },
+  {
+    "id": "ntu-adm",
+    "name_en": "Nanyang Technological University School of Art, Design and Media",
+    "name_zh": "南洋理工大学艺术设计与媒体学院",
+    "abbreviation": "NTU ADM",
+    "country": "SG",
+    "city_en": "Singapore",
+    "city_zh": "新加坡",
+    "type": "综合大学艺术学院",
+    "website": "https://www.ntu.edu.sg/adm",
+    "qs_ranking": 30,
+    "acceptance_rate": "15-25%",
+    "tuition_usd": 26000,
+    "tier": "top",
+    "sat_range": null,
+    "test_optional": true,
+    "programs": [
+      "animation",
+      "photography",
+      "fine-art",
+      "graphic-design",
+      "industrial-design",
+      "film-media"
+    ],
+    "portfolio": {
+      "pieces": "15-20",
+      "platform": "学校官网上传",
+      "observational_drawing_required": false,
+      "description": "需提交15-20件作品，涵盖不同媒介和创作方向。重视创意思维和艺术潜力，录取过程包含面试环节。"
+    },
+    "deadlines": {
+      "regular_decision": "01-26"
+    },
+    "financial_aid": {
+      "merit_scholarships": true,
+      "need_based_aid": true,
+      "description": "新加坡政府提供学费资助计划（接受资助者毕业后需在新加坡工作3年），另有多种奖学金。约SGD 35,000/年。"
+    },
+    "application_url": "https://www.ntu.edu.sg/admissions/undergraduate",
+    "highlights": [
+      "QS全球排名约第30，新加坡顶尖艺术设计学院",
+      "标志性的绿色屋顶建筑享誉世界",
+      "注重跨学科和科技融合，数字媒体方向突出",
+      "新加坡国际化环境，连接东南亚创意市场"
+    ]
+  },
+  {
+    "id": "lasalle",
+    "name_en": "LASALLE College of the Arts",
+    "name_zh": "拉萨尔艺术学院",
+    "abbreviation": "LASALLE",
+    "country": "SG",
+    "city_en": "Singapore",
+    "city_zh": "新加坡",
+    "type": "独立艺术学院",
+    "website": "https://www.lasalle.edu.sg",
+    "qs_ranking": null,
+    "acceptance_rate": "40-50%",
+    "tuition_usd": 21000,
+    "tier": "mid",
+    "sat_range": null,
+    "test_optional": true,
+    "programs": [
+      "fine-art",
+      "animation",
+      "graphic-design",
+      "fashion-design",
+      "interior-design",
+      "film-media",
+      "photography"
+    ],
+    "portfolio": {
+      "pieces": "10-20",
+      "platform": "学校官网上传",
+      "observational_drawing_required": false,
+      "description": "需提交10-20件作品展示创意能力和艺术潜力。部分专业需参加面试或试镜。申请流程相对灵活。"
+    },
+    "deadlines": {
+      "regular_decision": "03-31"
+    },
+    "financial_aid": {
+      "merit_scholarships": true,
+      "need_based_aid": true,
+      "description": "提供才艺奖学金和助学金。新加坡政府对符合条件的学生提供学费资助。约SGD 28,000/年。"
+    },
+    "application_url": "https://www.lasalle.edu.sg/admissions",
+    "highlights": [
+      "新加坡最大的独立艺术学院，亚洲知名",
+      "受新加坡政府资助，教学质量有保障",
+      "学位由伦敦大学金匠学院认证",
+      "位于新加坡市中心，文化设施丰富"
+    ]
+  },
+  {
+    "id": "cafa",
+    "name_en": "China Central Academy of Fine Arts",
+    "name_zh": "中央美术学院",
+    "abbreviation": "央美",
+    "country": "CN",
+    "city_en": "Beijing",
+    "city_zh": "北京",
+    "type": "独立艺术学院",
+    "website": "https://www.cafa.edu.cn",
+    "qs_ranking": null,
+    "acceptance_rate": "2-5%",
+    "tuition_usd": 2000,
+    "tier": "top",
+    "sat_range": null,
+    "test_optional": false,
+    "programs": [
+      "fine-art",
+      "graphic-design",
+      "illustration",
+      "animation",
+      "industrial-design",
+      "fashion-design",
+      "photography",
+      "interior-design"
+    ],
+    "portfolio": {
+      "pieces": "艺考现场创作",
+      "platform": "线下校考",
+      "observational_drawing_required": true,
+      "description": "需通过全国艺术类统考和学校校考。校考科目包括素描、色彩、速写和专业创作。同时需参加高考并达到文化课分数线。"
+    },
+    "deadlines": {
+      "regular_decision": "02-中旬（校考报名）"
+    },
+    "financial_aid": {
+      "merit_scholarships": true,
+      "need_based_aid": true,
+      "description": "国家级院校学费极低（约8,000-15,000元人民币/年），提供国家奖学金、助学金和助学贷款。"
+    },
+    "application_url": "https://www.cafa.edu.cn/zs/",
+    "highlights": [
+      "中国最高艺术学府，教育部直属唯一美术院校",
+      "纯艺术、油画、版画、雕塑全国第一",
+      "校友遍布中国美术界核心位置",
+      "学费极低但竞争极为激烈，录取率仅2-5%"
+    ]
+  },
+  {
+    "id": "caa",
+    "name_en": "China Academy of Art",
+    "name_zh": "中国美术学院",
+    "abbreviation": "国美",
+    "country": "CN",
+    "city_en": "Hangzhou",
+    "city_zh": "杭州",
+    "type": "独立艺术学院",
+    "website": "https://www.caa.edu.cn",
+    "qs_ranking": null,
+    "acceptance_rate": "3-6%",
+    "tuition_usd": 2000,
+    "tier": "top",
+    "sat_range": null,
+    "test_optional": false,
+    "programs": [
+      "fine-art",
+      "graphic-design",
+      "illustration",
+      "animation",
+      "industrial-design",
+      "photography",
+      "film-media",
+      "fashion-design"
+    ],
+    "portfolio": {
+      "pieces": "艺考现场创作",
+      "platform": "线下校考",
+      "observational_drawing_required": true,
+      "description": "需通过省级艺术统考和学校校考。校考科目包括素描、色彩写生和创作。同时需参加高考并达到文化课分数线。"
+    },
+    "deadlines": {
+      "regular_decision": "02-中旬（校考报名）"
+    },
+    "financial_aid": {
+      "merit_scholarships": true,
+      "need_based_aid": true,
+      "description": "公立院校学费极低（约8,000-15,000元人民币/年），设有各类奖学金和助学体系。"
+    },
+    "application_url": "https://www.caa.edu.cn/zs/",
+    "highlights": [
+      "中国历史最悠久的美术学院，国画和书法全国顶尖",
+      "位于杭州西湖畔，校园环境得天独厚",
+      "象山校区由普利兹克奖得主王澍设计，本身即为建筑杰作",
+      "中国画、书法、动画、视觉传达均为强项"
+    ]
+  },
+  {
+    "id": "tsinghua-art",
+    "name_en": "Tsinghua University Academy of Arts & Design",
+    "name_zh": "清华大学美术学院",
+    "abbreviation": "清美",
+    "country": "CN",
+    "city_en": "Beijing",
+    "city_zh": "北京",
+    "type": "综合大学艺术学院",
+    "website": "https://www.ad.tsinghua.edu.cn",
+    "qs_ranking": 15,
+    "acceptance_rate": "1-3%",
+    "tuition_usd": 1500,
+    "tier": "top",
+    "sat_range": null,
+    "test_optional": false,
+    "programs": [
+      "graphic-design",
+      "industrial-design",
+      "fashion-design",
+      "fine-art",
+      "animation",
+      "interior-design",
+      "illustration",
+      "photography"
+    ],
+    "portfolio": {
+      "pieces": "艺考现场创作",
+      "platform": "线下校考",
+      "observational_drawing_required": true,
+      "description": "需通过学校单独校考（素描、色彩、速写）和高考。文化课要求极高，综合分计算中文化课占比大。是中国对文化课要求最高的美院。"
+    },
+    "deadlines": {
+      "regular_decision": "01-中旬（校考报名）"
+    },
+    "financial_aid": {
+      "merit_scholarships": true,
+      "need_based_aid": true,
+      "description": "清华大学公立院校学费极低（约10,000元人民币/年），提供多种奖学金和助学体系。"
+    },
+    "application_url": "https://www.ad.tsinghua.edu.cn/",
+    "highlights": [
+      "清华大学下属美术学院，QS艺术设计排名全球约第15",
+      "工业设计和视觉传达设计全国顶尖",
+      "依托清华综合大学资源，跨学科优势明显",
+      "录取率极低（约1-3%），对文化课成绩要求最高"
     ]
   }
 ]

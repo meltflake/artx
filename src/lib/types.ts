@@ -3,7 +3,7 @@ export interface School {
   name_en: string
   name_zh: string
   abbreviation: string
-  country: 'US' | 'UK' | 'CA' | 'AU'
+  country: 'US' | 'UK' | 'CA' | 'AU' | 'HK' | 'SG' | 'CN'
   city_en: string
   city_zh: string
   type: string
