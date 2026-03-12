@@ -46,7 +46,13 @@
       "与布朗大学合作，可跨校选课",
       "基础技能训练要求极高，工业设计和插画专业顶尖",
       "毕业生就业网络遍布全球顶尖设计公司"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1300,
+      "monthly_high_usd": 1700,
+      "tier": "mid",
+      "source": "US small city estimate"
+    }
   },
   {
     "id": "calarts",
@@ -93,7 +99,13 @@
       "注重实验性和概念性创作，鼓励跨学科探索",
       "角色动画专业全球顶尖，毕业生遍布迪士尼、皮克斯",
       "校园文化自由开放，强调艺术家独立精神"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1200,
+      "monthly_high_usd": 1500,
+      "tier": "mid",
+      "source": "US small city estimate"
+    }
   },
   {
     "id": "cmu-art",
@@ -141,7 +153,13 @@
       "艺术与科技结合紧密，交互与游戏设计全球领先",
       "数学和理工背景学生的理想选择",
       "毕业生在科技和创意行业就业率极高"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1200,
+      "monthly_high_usd": 1600,
+      "tier": "mid",
+      "source": "US small city estimate"
+    }
   },
   {
     "id": "parsons",
@@ -190,7 +208,13 @@
       "时尚设计全球顶尖，与纽约时尚产业紧密连接",
       "地处纽约市中心格林威治村，行业资源极为丰富",
       "注重当代艺术实践和社会创新设计"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 2300,
+      "monthly_high_usd": 3500,
+      "tier": "high",
+      "source": "visatocampus, multiple sources"
+    }
   },
   {
     "id": "pratt",
@@ -242,7 +266,13 @@
       "拥有布鲁克林独立校园，校园环境优美",
       "工业设计和插画技术训练扎实",
       "地处纽约，实习和就业机会丰富"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 2300,
+      "monthly_high_usd": 3500,
+      "tier": "high",
+      "source": "visatocampus, multiple sources"
+    }
   },
   {
     "id": "saic",
@@ -291,7 +321,13 @@
       "课程极度灵活，鼓励跨学科探索和实验",
       "纯艺术和当代艺术领域声誉卓著",
       "学生可直接使用世界级博物馆资源进行学习"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1350,
+      "monthly_high_usd": 2000,
+      "tier": "mid-high",
+      "source": "SAIC official budget 2026-27"
+    }
   },
   {
     "id": "mica",
@@ -339,7 +375,13 @@
       "奖学金机会极为丰厚，性价比高",
       "绘画和版画传统深厚",
       "位于巴尔的摩，生活成本相对纽约较低"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1200,
+      "monthly_high_usd": 1500,
+      "tier": "mid",
+      "source": "US small city estimate"
+    }
   },
   {
     "id": "scad",
@@ -389,7 +431,13 @@
       "设施一流，专业设置最为全面",
       "动画、游戏设计和时尚专业行业联系紧密",
       "在萨凡纳、亚特兰大和香港均设有校区"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1100,
+      "monthly_high_usd": 1400,
+      "tier": "mid",
+      "source": "US small city estimate (low end)"
+    }
   },
   {
     "id": "massart",
@@ -438,7 +486,13 @@
       "位于波士顿艺术区，毗邻多所顶尖大学",
       "插画和动画专业质量优秀",
       "可与波士顿地区其他院校交叉选课"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 2000,
+      "monthly_high_usd": 2800,
+      "tier": "high",
+      "source": "visatocampus"
+    }
   },
   {
     "id": "sva",
@@ -487,7 +541,13 @@
       "教师多为业界活跃的专业人士和艺术家",
       "插画、动画和平面设计专业实力强大",
       "纽约的地理优势为学生提供无与伦比的实习机会"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 2300,
+      "monthly_high_usd": 3500,
+      "tier": "high",
+      "source": "visatocampus, multiple sources"
+    }
   },
   {
     "id": "ringling",
@@ -536,7 +596,13 @@
       "毕业生就业率极高，与皮克斯、迪士尼等关系密切",
       "位于佛罗里达州海滨城市，校园环境优美",
       "游戏设计和动态影像专业发展迅速"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1200,
+      "monthly_high_usd": 1500,
+      "tier": "mid",
+      "source": "US small city estimate"
+    }
   },
   {
     "id": "cca",
@@ -587,7 +653,13 @@
       "工业设计、建筑和交互设计是强项",
       "录取率友好，是稳妥的保底选择",
       "毗邻硅谷，科技行业就业机会丰富"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 2600,
+      "monthly_high_usd": 2700,
+      "tier": "high",
+      "source": "amberstudent 2026"
+    }
   },
   {
     "id": "ual",
@@ -637,7 +709,13 @@
       "旗下六大学院各具特色：CSM时尚、LCC传媒、LCF时尚商业",
       "本科三年制，总费用相对美国四年制更低",
       "伦敦的艺术和创意产业资源无与伦比"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1650,
+      "monthly_high_usd": 2280,
+      "tier": "high",
+      "source": "UK visa requirement £1,483/mo"
+    }
   },
   {
     "id": "gsa",
@@ -684,7 +762,13 @@
       "建筑和纯艺术是其传统强项",
       "查尔斯·雷尼·麦金托什设计的历史建筑校园",
       "格拉斯哥生活成本低，艺术氛围浓厚"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1100,
+      "monthly_high_usd": 1500,
+      "tier": "mid",
+      "source": "UK non-London estimate"
+    }
   },
   {
     "id": "goldsmiths",
@@ -730,7 +814,13 @@
       "培养了众多YBA（英国青年艺术家）代表人物",
       "纯艺术和策展专业非常强，注重理论与实践结合",
       "位于伦敦新十字区，艺术社区活跃"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1650,
+      "monthly_high_usd": 2280,
+      "tier": "high",
+      "source": "UK visa requirement £1,483/mo"
+    }
   },
   {
     "id": "mmu-art",
@@ -778,7 +868,13 @@
       "时尚、纺织和平面设计实力雄厚",
       "曼彻斯特生活成本较低，学生生活丰富",
       "与本地创意产业联系紧密，实习机会多"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1140,
+      "monthly_high_usd": 1650,
+      "tier": "mid",
+      "source": "UK non-London £1,136/mo"
+    }
   },
   {
     "id": "emily-carr",
@@ -825,7 +921,13 @@
       "视觉艺术、设计和新媒体是传统强项",
       "温哥华环境优美，对亚洲学生非常友好",
       "加拿大留学后移民政策相对友好"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1500,
+      "monthly_high_usd": 2250,
+      "tier": "mid-high",
+      "source": "CAD 2,200-2,800/mo"
+    }
   },
   {
     "id": "ocad",
@@ -871,7 +973,13 @@
       "平面设计、插画和工业设计实力雄厚",
       "标志性的Sharp Centre大楼是多伦多地标建筑",
       "位于多伦多市中心，文化资源丰富"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1500,
+      "monthly_high_usd": 2250,
+      "tier": "mid-high",
+      "source": "CAD 2,200-2,800/mo"
+    }
   },
   {
     "id": "rmit",
@@ -921,7 +1029,13 @@
       "设计类专业与行业联系极为紧密",
       "墨尔本是澳洲文化和艺术之都",
       "毕业后可申请澳洲工作签证，移民政策友好"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1200,
+      "monthly_high_usd": 1800,
+      "tier": "mid",
+      "source": "AUD 1,560-2,320/mo"
+    }
   },
   {
     "id": "uts",
@@ -969,7 +1083,13 @@
       "位于悉尼市中心，实习和就业机会丰富",
       "注重实践教学，与产业界合作紧密",
       "新建的校园设施现代化程度极高"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1400,
+      "monthly_high_usd": 2000,
+      "tier": "mid-high",
+      "source": "AUD estimate, higher than Melbourne"
+    }
   },
   {
     "id": "polyu-design",
@@ -1015,7 +1135,13 @@
       "工业设计和交互设计全球领先，与Jony Ive母校齐名",
       "与本地及国际业界合作紧密，实习机会丰富",
       "香港国际化环境，毕业后可留港发展"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1000,
+      "monthly_high_usd": 1900,
+      "tier": "mid",
+      "source": "HKD 8,000-15,000/mo"
+    }
   },
   {
     "id": "cityu-cm",
@@ -1060,7 +1186,13 @@
       "注重科技与艺术的跨学科融合",
       "邵逸夫创意媒体中心设施一流",
       "毕业生在动画、游戏、数字艺术领域表现突出"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1000,
+      "monthly_high_usd": 1900,
+      "tier": "mid",
+      "source": "HKD 8,000-15,000/mo"
+    }
   },
   {
     "id": "ntu-adm",
@@ -1106,7 +1238,13 @@
       "标志性的绿色屋顶建筑享誉世界",
       "注重跨学科和科技融合，数字媒体方向突出",
       "新加坡国际化环境，连接东南亚创意市场"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1200,
+      "monthly_high_usd": 1800,
+      "tier": "mid",
+      "source": "NUS official estimate SGD 1,600-2,400/mo"
+    }
   },
   {
     "id": "lasalle",
@@ -1153,7 +1291,13 @@
       "受新加坡政府资助，教学质量有保障",
       "学位由伦敦大学金匠学院认证",
       "位于新加坡市中心，文化设施丰富"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 1200,
+      "monthly_high_usd": 1800,
+      "tier": "mid",
+      "source": "NUS official estimate SGD 1,600-2,400/mo"
+    }
   },
   {
     "id": "cafa",
@@ -1201,7 +1345,13 @@
       "纯艺术、油画、版画、雕塑全国第一",
       "校友遍布中国美术界核心位置",
       "学费极低但竞争极为激烈，录取率仅2-5%"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 530,
+      "monthly_high_usd": 900,
+      "tier": "low",
+      "source": "RMB 3,800-6,500/mo"
+    }
   },
   {
     "id": "caa",
@@ -1249,7 +1399,13 @@
       "位于杭州西湖畔，校园环境得天独厚",
       "象山校区由普利兹克奖得主王澍设计，本身即为建筑杰作",
       "中国画、书法、动画、视觉传达均为强项"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 500,
+      "monthly_high_usd": 800,
+      "tier": "low",
+      "source": "RMB estimate, slightly lower than Beijing"
+    }
   },
   {
     "id": "tsinghua-art",
@@ -1297,6 +1453,12 @@
       "工业设计和视觉传达设计全国顶尖",
       "依托清华综合大学资源，跨学科优势明显",
       "录取率极低（约1-3%），对文化课成绩要求最高"
-    ]
+    ],
+    "living_cost": {
+      "monthly_low_usd": 530,
+      "monthly_high_usd": 900,
+      "tier": "low",
+      "source": "RMB 3,800-6,500/mo"
+    }
   }
 ]

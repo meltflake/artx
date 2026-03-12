@@ -26,6 +26,12 @@ export interface School {
     early_action?: string
     regular_decision: string
   }
+  living_cost: {
+    monthly_low_usd: number
+    monthly_high_usd: number
+    tier: 'low' | 'mid' | 'mid-high' | 'high'
+    source: string
+  }
   financial_aid: {
     merit_scholarships: boolean
     need_based_aid: boolean

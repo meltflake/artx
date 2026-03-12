@@ -91,6 +91,13 @@ export default function ComparePage() {
               <CompareRow label="QS 排名" values={selectedSchools.map((s) => s.qs_ranking ? `#${s.qs_ranking}` : '未进入 Top 50')} />
               <CompareRow label="录取率" values={selectedSchools.map((s) => s.acceptance_rate)} highlight />
               <CompareRow label="年学费 (USD)" values={selectedSchools.map((s) => `$${s.tuition_usd.toLocaleString()}${s.country !== 'US' ? ' *' : ''}`)} highlight />
+              <CompareRow label="月生活费 (USD)" values={selectedSchools.map((s) => `$${s.living_cost.monthly_low_usd.toLocaleString()}–${s.living_cost.monthly_high_usd.toLocaleString()}`)} />
+              <CompareRow label="4 年总费用估算" values={selectedSchools.map((s) => {
+                const tuition4y = s.tuition_usd * 4
+                const living4yLow = s.living_cost.monthly_low_usd * 48
+                const living4yHigh = s.living_cost.monthly_high_usd * 48
+                return `$${((tuition4y + living4yLow) / 1000).toFixed(0)}k–${((tuition4y + living4yHigh) / 1000).toFixed(0)}k`
+              })} highlight />
               <CompareRow label="标化考试" values={selectedSchools.map((s) => s.test_optional ? 'Test-Optional' : '必须')} />
               <CompareRow label="SAT 参考" values={selectedSchools.map((s) => s.sat_range || '—')} />
               <CompareRow label="作品集数量" values={selectedSchools.map((s) => s.portfolio.pieces + ' 件')} />

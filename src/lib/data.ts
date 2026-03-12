@@ -62,3 +62,13 @@ const PROGRAM_LABELS: Record<string, string> = {
 export function getProgramLabel(id: string): string {
   return PROGRAM_LABELS[id] || id
 }
+
+export function getLivingCostTierLabel(tier: string): string {
+  const map: Record<string, string> = {
+    'high': '高消费城市',
+    'mid-high': '中高消费城市',
+    'mid': '中等消费城市',
+    'low': '低消费城市',
+  }
+  return map[tier] || tier
+}

@@ -32,8 +32,9 @@ export default function SchoolCard({ school }: { school: School }) {
         <span>录取率 {school.acceptance_rate}</span>
       </div>
 
-      <div className="mt-2 text-xs text-gray-500">
-        年学费 ~${school.tuition_usd.toLocaleString()}{school.country !== 'US' && ' (折合美元)'}
+      <div className="mt-2 flex flex-wrap gap-x-4 text-xs text-gray-500">
+        <span>年学费 ~${school.tuition_usd.toLocaleString()}{school.country !== 'US' && ' (折合美元)'}</span>
+        <span>月生活费 ${school.living_cost.monthly_low_usd.toLocaleString()}–{school.living_cost.monthly_high_usd.toLocaleString()}</span>
       </div>
 
       <div className="mt-3 flex flex-wrap gap-1">

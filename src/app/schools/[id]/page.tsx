@@ -107,6 +107,29 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ i
         </div>
       </Section>
 
+      {/* Living Cost */}
+      <Section title="生活成本">
+        <div className="grid gap-4 sm:grid-cols-3">
+          <StatBox label="月生活费（低）" value={`$${school.living_cost.monthly_low_usd.toLocaleString()}`} />
+          <StatBox label="月生活费（高）" value={`$${school.living_cost.monthly_high_usd.toLocaleString()}`} />
+          <StatBox label="4 年生活费估算" value={`$${(school.living_cost.monthly_low_usd * 48 / 1000).toFixed(0)}k–${(school.living_cost.monthly_high_usd * 48 / 1000).toFixed(0)}k`} />
+        </div>
+        <div className="mt-3 flex items-center gap-2">
+          <span className={`rounded-full px-2 py-0.5 text-xs font-medium ${
+            school.living_cost.tier === 'high' ? 'bg-red-100 text-red-700' :
+            school.living_cost.tier === 'mid-high' ? 'bg-orange-100 text-orange-700' :
+            school.living_cost.tier === 'mid' ? 'bg-yellow-100 text-yellow-700' :
+            'bg-green-100 text-green-700'
+          }`}>
+            {school.living_cost.tier === 'high' ? '高消费城市' :
+             school.living_cost.tier === 'mid-high' ? '中高消费城市' :
+             school.living_cost.tier === 'mid' ? '中等消费城市' : '低消费城市'}
+          </span>
+          <span className="text-xs text-gray-400">不含学费，含住房、餐饮、交通等</span>
+        </div>
+        <p className="mt-2 text-xs text-gray-400">数据来源：{school.living_cost.source}</p>
+      </Section>
+
       {/* Financial Aid */}
       <Section title="费用与资助">
         <div className="flex gap-3 mb-3">
