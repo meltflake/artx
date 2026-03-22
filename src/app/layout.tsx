@@ -10,6 +10,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://meltflake.com"),
   title: {
     default: "ArtX — 艺术院校选校指南",
     template: "%s | ArtX",
@@ -18,6 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ArtX — 艺术院校选校指南",
     description: "帮助艺术生和家长做出更好的选校决策",
+    siteName: "ArtX",
     locale: "zh_CN",
     type: "website",
     images: [
@@ -28,6 +30,11 @@ export const metadata: Metadata = {
         alt: "ArtX 艺术院校选校指南",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ArtX — 艺术院校选校指南",
+    description: "帮助艺术生和家长做出更好的选校决策",
   },
 };
 
