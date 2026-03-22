@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Geist } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -45,6 +46,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-6QWH6QHG2X" strategy="afterInteractive" />
+      <Script id="ga-init" strategy="afterInteractive">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-6QWH6QHG2X');`}</Script>
       <body className={`${geistSans.variable} antialiased`}>
         <Header />
         <main className="min-h-screen">{children}</main>
